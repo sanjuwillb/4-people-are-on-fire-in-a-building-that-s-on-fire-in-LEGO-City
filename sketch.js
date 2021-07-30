@@ -118,9 +118,6 @@ function draw(){
     textSize(25)
     text("Score: " + score, 1000, 30)
     text("4 People Are On Fire In A Building That's On Fire In LEGO City! Build It! Save Them!", 20, 30)
-    if (score == 200000){
-        text("You Saved Them!", 170, 190)
-    }
 }
 async function whatIsTheTime(){
     var response = await fetch("http://worldtimeapi.org/api/timezone/America/Detroit")
